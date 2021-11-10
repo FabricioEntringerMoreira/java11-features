@@ -1,9 +1,6 @@
 package io.fabriciomoreira;
 
-import io.fabriciomoreira.features.LocalVariableLambda;
-import io.fabriciomoreira.features.NewFileMethods;
-import io.fabriciomoreira.features.NewStringMethods;
-import io.fabriciomoreira.features.newToArrayMethod;
+import io.fabriciomoreira.features.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,5 +13,6 @@ public class Main {
             System.out.println(ex.getMessage());
         }
         new newToArrayMethod().execute();
+        new MethodIsEmptyInOptional().execute();
     }
 }
